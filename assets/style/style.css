@@ -1,5 +1,10 @@
 /* BASIC STYLES HERE */
 
+.house-img{
+    height: 30vh;
+    width: 40vh;
+    object-fit: fill;
+}
 
 .creator-img {
     height: 10vh;

@@ -84,6 +84,50 @@
 
     <!-- SECTION -->
     <main>
+
+<div class="collapse" id="carFormCollapse">
+              <!-- STUB House form -->
+              <form class="row p-2" onsubmit="">
+
+      
+
+                <div class="form-floating mb-3 col-4">
+                  <input required type="number" class="form-control" min="1700" id="carYear" name="year"
+                    placeholder="House Year">
+                  <label for="houseYear">House Year</label>
+                </div>
+
+                <div class="form-floating mb-3 col-6">
+                  <input required type="number" class="form-control" max="10000000" id="housePrice" name="price"
+                    placeholder="house Price">
+                  <label for="housePrice">House Price</label>
+                </div>
+
+      
+
+                <div class="form-floating mb-3 col-12">
+                  <input required type="text" class="form-control" id="houseimgUrl" name="imgUrl"
+                    placeholder="House Img Url">
+                  <label for="carimgUrl">House Img Url</label>
+                </div>
+
+                <div class="form-floating">
+                  <textarea required maxLength="144" class="form-control" placeholder="Please describe your House"
+                    name="description" id="HouseDescription" style="height: 100px"></textarea>
+                  <label for="HouseDescription">House Description</label>
+                </div>
+
+               
+                <div class="text-end">
+                  <button type="submit" class="btn btn-info">Create Listing</button>
+
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </section>
+
       <!-- NOTE after filling in the env.js... come and remove this from HTML -->
       <!-- <section id="auth-template"> -->
       <!-- TODO REMOVE THE AUTH TEMPLATE ONCE YOU VERIFY YOUR AUTH SETTINGS -->
